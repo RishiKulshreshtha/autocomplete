@@ -3,7 +3,7 @@
 /**
  * Implementation of hook_form_FORM_ID_alter().
  */
-function autocomplete_form_pan_card_node_form_alter(&$form, &$form_state, $form_id) {
+function autocomplete_form_alter(&$form, &$form_state, $form_id) {
   $form['title']['#autocomplete_path'] = 'unique_node_autocomplete_callback';
 }
 
