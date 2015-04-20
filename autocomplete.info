@@ -1,0 +1,3 @@
+name = Autocomplete Node Title
+description = Provides Autocomplete Node Title feature.
+core = 7.x
